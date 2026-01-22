@@ -9,7 +9,6 @@
 - [Key Features](#-key-features)
 - [Tech Stack](#-tech-stack)
 - [Screenshots](#-screenshots)
-- [Installation & Setup](#-installation--setup)
 - [Voice Commands](#-voice-commands)
 - [Future Enhancements](#-future-enhancements)
 - [Author](#-author)
@@ -84,37 +83,6 @@ Instantly analyzes the content of opened emails using **TextBlob**, **spaCy**, *
 
 ---
 
-## ⚙ Installation & Setup
-
-### Prerequisites
-1.  **Python 3.8+** installed.
-2.  **Gmail Account** with 2-Step Verification enabled.
-3.  **Google App Password** (required for secure login).
-4.  **Google Gemini API Key** (for AI features).
-
-### Steps
-1.  **Clone the Repository**
-    ```bash
-    git clone [https://github.com/yourusername/hermys.git](https://github.com/yourusername/hermys.git)
-    cd hermys
-    ```
-
-2.  **Install Dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *Note: You may need to download specific spaCy/NLTK models:*
-    ```bash
-    python -m spacy download en_core_web_sm
-    ```
-
-3.  **Run the Application**
-    ```bash
-    python email_sender1.py
-    ```
-
----
-
 ## 🗣 Voice Commands
 Hermys listens for specific keywords to execute actions. Examples include:
 
@@ -135,10 +103,9 @@ Hermys listens for specific keywords to execute actions. Examples include:
 
 ## 👨‍💻 Author
 
-**Manas M Surve**
+**Manas Surve**
 * **Project:** Mini Project (Semester I)
 * **Institute:** Navinchandra Mehta Institute of Technology & Development (NMITD)
 * **Year:** 2024-2025
 
----
-*Disclaimer: This project uses live IMAP/SMTP connections. Ensure you keep your App Password and API Keys secure.*
+
