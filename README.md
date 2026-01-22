@@ -1,89 +1,146 @@
-# HERMYS – Smart Email System
+# 🦅 HERMYS – Smart Email System
 
-[cite_start]Hermys is an intelligent, user-centric email assistant designed to manage emails more efficiently by combining functional design with AI-powered automation[cite: 26, 42]. [cite_start]Built using Python and PyQt5, Hermys is a smart, voice-enabled assistant that enhances how users interact with their inbox through Artificial Intelligence and Natural Language Processing (NLP)[cite: 27].
+**Hermys** is a smart, voice-enabled desktop email assistant built using **Python** and **PyQt5**. It is designed to enhance productivity by integrating Artificial Intelligence and Natural Language Processing (NLP) into your daily email workflow. Hermys automates repetitive tasks, provides context-aware insights, and allows for hands-free voice control.
+
+---
+
+## 📋 Table of Contents
+- [Executive Summary](#-executive-summary)
+- [Key Features](#-key-features)
+- [Tech Stack](#-tech-stack)
+- [Screenshots](#-screenshots)
+- [Installation & Setup](#-installation--setup)
+- [Voice Commands](#-voice-commands)
+- [Future Enhancements](#-future-enhancements)
+- [Author](#-author)
+
+---
 
 ## 🚀 Executive Summary
+Hermys overcomes the challenges of traditional email clients—such as information overload and tedious navigation—by offering an intelligent assistant. It operates without a local database, handling all operations live via **IMAP**, **SMTP**, and **Google's Gemini API**.
 
-[cite_start]Hermys aims to overcome challenges like information overload and tedious navigation by offering a smart desktop assistant for email handling[cite: 61, 72]. [cite_start]It automates repetitive actions, interprets email context, and provides voice-activated controls[cite: 74, 75, 76]. [cite_start]The system does not require a database, handling all operations live using IMAP, SMTP, and Gemini’s APIs[cite: 41].
+The system is designed for students, professionals, and tech-savvy users who want to:
+* Automate repetitive email actions.
+* Understand email context instantly via NLP.
+* Respond intelligently with minimal effort.
+
+---
 
 ## ✨ Key Features
 
-### 📨 Intelligent Email Dashboard
-* [cite_start]**Categorized Views:** View lists of Inbox, Sent, and Spam emails with real-time fetching via IMAP[cite: 31].
-* [cite_start]**Smart Viewer:** Read selected emails with options to immediately forward or delete them[cite: 32].
-* [cite_start]**Rich Composer:** Auto-fills sender/recipient fields, supports CC/BCC, attachments, rich formatting, and message discarding[cite: 33].
+### 📨 Smart Dashboard & Viewer
+* **Live Fetching:** View categorized lists (Inbox, Sent, Spam) fetched in real-time via IMAP.
+* **Quick Actions:** Read, forward, or delete emails directly from the viewer.
+* **Search:** Quickly find specific emails by keywords.
+
+### ✍️ Intelligent Composer
+* **Rich Formatting:** Supports attachments, CC/BCC, and rich text.
+* **AI Replies:** Generates professional replies automatically using the Gemini API.
+* **Scheduling:** Schedule replies to be sent at a later time.
 
 ### 🧠 NLP Analysis Panel
-[cite_start]Real-time analysis of email content using tools like TextBlob, spaCy, VADER, and Sumy[cite: 34].
-* [cite_start]**Intent Recognition:** Automatically detects what the email is about[cite: 171].
-* [cite_start]**Summarization:** Provides a short summary of the email content[cite: 172].
-* [cite_start]**Sentiment Analysis:** Detects positive, negative, or neutral tones[cite: 173].
-* [cite_start]**Keyword Extraction:** Highlights important keywords used in the message[cite: 174].
+Instantly analyzes the content of opened emails using **TextBlob**, **spaCy**, **VADER**, and **Sumy**:
+* **Intent Recognition:** Detects if an email is a warning, inquiry, complaint, etc.
+* **Summarization:** Provides a concise summary of long emails.
+* **Sentiment Analysis:** Identifies the tone (Positive, Negative, Neutral) and emotion.
+* **Keyword Extraction:** Highlights key entities and topics.
 
-### 🤖 Assistant & Insights
-* [cite_start]**Voice Control:** Issue commands to open, forward, delete, or read emails aloud using speech-to-text[cite: 35, 38].
-* [cite_start]**AI Reply Generation:** Generates and schedules intelligent replies using the Gemini API[cite: 36, 126].
-* [cite_start]**Reminders:** Set reminders for email follow-ups[cite: 36].
-* [cite_start]**Visual Analytics:** Toggle dynamic graphs showing email volume by day, sentiment trends, keyword usage, and top senders[cite: 39].
+### 🤖 Voice Assistant
+* **Hands-Free Control:** Issue voice commands to open, read, or manage emails.
+* **Text-to-Speech:** Hermys can read your emails out loud to you.
 
-## 🛠️ Technology Stack
+### 📊 Visual Insights
+* **Interactive Graphs:** View email volume by day, sentiment trends over time, and top senders.
+* **Dark/Light Mode:** Toggle between themes for visual comfort.
 
-* [cite_start]**Programming Language:** Python[cite: 88].
-* [cite_start]**GUI Framework:** PyQt5 (Supports resizable panels and Dark/Light mode)[cite: 89, 106].
-* [cite_start]**AI & ML:** Google Gemini via GenAI API[cite: 91].
-* [cite_start]**NLP Libraries:** NLTK, spaCy, TextBlob, Sumy, VADER[cite: 90].
-* [cite_start]**Protocols:** SMTP (Sending), IMAP (Fetching)[cite: 88].
+---
+
+## 🛠 Tech Stack
+
+* **Language:** Python 3.x
+* **GUI Framework:** PyQt5
+* **AI Model:** Google Gemini (GenAI API)
+* **NLP Libraries:**
+    * `NLTK` & `spaCy` (Processing)
+    * `TextBlob` & `VADER` (Sentiment)
+    * `Sumy` (Summarization)
+* **Protocols:** `imaplib` (IMAP), `smtplib` (SMTP)
+
+---
 
 ## 📸 Screenshots
 
-### Login Screen
-[cite_start]*The system requires secure authentication via Email ID, App Password, and Gemini API Key[cite: 28].*
-![Login Screen](https://via.placeholder.com/800x600?text=Login+Screen+Snapshot)  
-*(Reference: Source 186)*
+### 1. Login Screen
+*Secure login using Email, App Password, and Gemini API Key.*
+![Login Screen](https://via.placeholder.com/800x500?text=Insert+Login+Screenshot+Here)
 
-### AI Email Dashboard & NLP Analysis
-[cite_start]*A five-panel interactive dashboard displaying the Inbox, Viewer, Composer, NLP Analysis, and Assistant[cite: 29].*
-![Dashboard](https://via.placeholder.com/800x600?text=Dashboard+and+NLP+Analysis)  
-*(Reference: Source 186)*
+### 2. Main Dashboard & NLP Analysis
+*Inbox view with real-time Sentiment and Intent analysis side-by-side.*
+![Dashboard](https://via.placeholder.com/800x500?text=Insert+Dashboard+Screenshot+Here)
 
-### Analytics & Dark Mode
-[cite_start]*Visual data representation including Email Volume and Sentiment Trends in Dark Mode[cite: 180, 186].*
-![Analytics](https://via.placeholder.com/800x600?text=Analytics+and+Dark+Mode)  
-*(Reference: Source 186)*
+### 3. Analytics & Dark Mode
+*Visual data representation of email habits.*
+![Analytics](https://via.placeholder.com/800x500?text=Insert+Analytics+Screenshot+Here)
 
-## ⚙️ Setup & Installation
+*(Note: Replace the placeholder links above with the actual paths to your screenshot images in the `assets/` folder once uploaded).*
 
-1.  **Clone the Repository:**
+---
+
+## ⚙ Installation & Setup
+
+### Prerequisites
+1.  **Python 3.8+** installed.
+2.  **Gmail Account** with 2-Step Verification enabled.
+3.  **Google App Password** (required for secure login).
+4.  **Google Gemini API Key** (for AI features).
+
+### Steps
+1.  **Clone the Repository**
     ```bash
     git clone [https://github.com/yourusername/hermys.git](https://github.com/yourusername/hermys.git)
+    cd hermys
     ```
-2.  **Install Dependencies:**
-    [cite_start]Ensure you have the required NLP libraries installed (NLTK, spaCy, etc.)[cite: 90].
+
+2.  **Install Dependencies**
     ```bash
     pip install -r requirements.txt
     ```
-3.  **Credentials Required:**
-    To log in, you will need:
-    * **Email Address**
-    * [cite_start]**App Password:** (Not your standard email password. Enable 2FA on your email account and generate an App Password)[cite: 28].
-    * [cite_start]**Gemini API Key:** Required for AI generation and NLP features[cite: 28].
+    *Note: You may need to download specific spaCy/NLTK models:*
+    ```bash
+    python -m spacy download en_core_web_sm
+    ```
 
-## 🗣️ Voice Commands
-[cite_start]Hermys supports voice commands for hands-free operation[cite: 129]. Examples include:
-* [cite_start]"Read emails from 1 to 3"[cite: 188].
-* [cite_start]"Forward this email to John"[cite: 188].
-* [cite_start]"Generate reply to this email and send after 1 min"[cite: 188].
-
-## 🔮 Future Enhancements
-* [cite_start]**Database Integration:** Adding SQLite to store login history and user preferences[cite: 206].
-* [cite_start]**Full Threading:** Implementing email threading for better conversation organization[cite: 207].
-* [cite_start]**Mobile Support:** Developing a mobile app version with cloud sync[cite: 218].
-* [cite_start]**Advanced LLMs:** Integrating larger models for deeper contextual understanding[cite: 210].
-
-## 👥 Author
-[cite_start]**Manas M Surve** [cite: 7]  
-[cite_start]*Navinchandra Mehta Institute of Technology & Development (NMITD)* [cite: 9]  
-[cite_start]*Deccan Education Society* [cite: 8]
+3.  **Run the Application**
+    ```bash
+    python email_sender1.py
+    ```
 
 ---
-[cite_start]*This project was submitted as a Mini Project for Semester I of the MCA program (2024-2025).* [cite: 11, 12]
+
+## 🗣 Voice Commands
+Hermys listens for specific keywords to execute actions. Examples include:
+
+* **"Read emails from 1 to 3"** -> Reads the first three emails in the list.
+* **"Forward this email to [Name]"** -> Opens the composer with the contact's email pre-filled.
+* **"Generate reply to this email and send after 1 minute"** -> Uses AI to draft and schedule a response.
+* **"Delete this email"** -> Moves the current email to trash.
+
+---
+
+## 🔮 Future Enhancements
+* **Database Integration:** Adding SQLite to store user preferences and login history.
+* **Mobile Support:** Developing a companion mobile application.
+* **Advanced Threading:** improved handling of long email conversation threads.
+* **Offline Mode:** Caching emails for offline access.
+
+---
+
+## 👨‍💻 Author
+
+**Manas M Surve**
+* **Project:** Mini Project (Semester I)
+* **Institute:** Navinchandra Mehta Institute of Technology & Development (NMITD)
+* **Year:** 2024-2025
+
+---
+*Disclaimer: This project uses live IMAP/SMTP connections. Ensure you keep your App Password and API Keys secure.*
