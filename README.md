@@ -1,4 +1,4 @@
-# 🦅 HERMYS – Smart Email System
+# HERMYS – Smart Email System
 
 **Hermys** is a smart, voice-enabled desktop email assistant built using **Python** and **PyQt5**. It is designed to enhance productivity by integrating Artificial Intelligence and Natural Language Processing (NLP) into your daily email workflow. Hermys automates repetitive tasks, provides context-aware insights, and allows for hands-free voice control.
 
