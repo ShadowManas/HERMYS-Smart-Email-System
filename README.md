@@ -72,7 +72,7 @@ Instantly analyzes the content of opened emails using **TextBlob**, **spaCy**, *
 
 ### 1. Login Screen
 *Secure login using Email, App Password, and Gemini API Key.*
-<img width="665" height="353" alt="Image" src="https://github.com/user-attachments/assets/5f50d42f-ab39-4c33-92ab-89d54aab6582" />
+<img width="665" height="446" alt="Image" src="https://github.com/user-attachments/assets/872ee386-5ab0-46a5-b7b5-1b70ef556f3a" />
 
 ### 2. Main Dashboard & NLP Analysis
 *Inbox view with real-time Sentiment and Intent analysis side-by-side.*
@@ -80,7 +80,7 @@ Instantly analyzes the content of opened emails using **TextBlob**, **spaCy**, *
 
 ### 3. Analytics & Dark Mode
 *Visual data representation of email habits.*
-<img width="665" height="446" alt="Image" src="https://github.com/user-attachments/assets/872ee386-5ab0-46a5-b7b5-1b70ef556f3a" />
+<img width="665" height="353" alt="Image" src="https://github.com/user-attachments/assets/5f50d42f-ab39-4c33-92ab-89d54aab6582" />
 
 ---
 
